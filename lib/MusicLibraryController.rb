@@ -28,9 +28,9 @@ class MusicLibraryController
       elsif user_input == "list genres"
         list_genres
       elsif user_input == "artist"
-        list_songs_by_artist
+        list_songs_by_artists
       elsif user_input == "genre"
-        list_songs_by_genre
+        list_songs_by_genres
       elsif user_input == "play song"
         play_song
       end
